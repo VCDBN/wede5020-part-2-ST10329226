@@ -1,0 +1,391 @@
+
+/*this is styling for all pages*/
+
+.imageh{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+
+body{
+    width: auto;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #00aeff;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+h7{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+.imageh {
+
+    bottom: 50px;
+    left: 0;    
+   
+}
+
+h3{
+    text-align: center;
+    font-size:  40px;
+
+}
+h1{
+    color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #860000;
+  object-fit: cover;
+
+}
+
+li {
+  float: left;
+}
+
+
+
+li a {
+  display: block;
+  color: rgb(233, 229, 229);
+  text-align: center;
+  padding: 19px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #00aeff;
+}
+
+
+/*this is for the aboutpage*/
+h3{
+    text-align: center;
+    font-size:  40px;
+}
+
+h4{ 
+    text-align: center;
+    font-size: 20px;
+
+}
+
+h5{ 
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+h6{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+/*this is for the Homepage*/
+
+body.homepage
+{
+    
+        background: url("4.Website Assets/cats-and-dogs.jpg") no-repeat center;
+        background-size: cover;
+        height: 100vh;
+        padding: 0;
+        margin: 0 auto;
+        object-fit: cover;
+    
+}
+
+label{
+    font-size: 20px;
+    color: #005b86;
+}
+input{
+    font-size: 20px ;
+}
+h1.h1 {
+    text-align: center;
+    color: rgb(0, 89, 255);
+    font-size: 50px;
+
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+
+}
+
+.p2{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+form {
+    
+    align-items: center;
+    text-align: center;
+
+};
+
+img{
+    border-radius: 10px;
+    size-adjust: 10px;
+}
+
+
+
+
+/*this is for the newspage*/
+
+
+
+
+.imagen-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+
+}
+
+
+.imagen-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 10px;
+
+}
+
+.imagen{
+    width:350px;
+    height: 350px;
+    transition: transform 0.5s;
+    border:2px solid black
+
+}
+
+.imagen-caption{
+margin-top: 5px;
+font-size: 40px;
+color: black;
+text-align: center;
+
+
+}
+
+.imagen:hover{
+transform: scale(1.2);
+}
+
+
+
+
+/*this is for the products page*/
+
+
+
+.imagep-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+
+}
+
+
+.imagep-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 10px;
+
+}
+
+.imagep{
+    width:350px;
+    height: 350px;
+    transition: transform 0.5s;
+    border: 2px solid black;
+
+}
+
+.imagep-caption{
+margin-top: 5px;
+font-size: 40px;
+color: black;
+text-align: center;
+
+
+}
+
+.imagep:hover{
+transform: scale(1.2);
+}
+
+
+/* this is for the contacts pages*/
+
+table{
+    width: 100%;
+  }
+  
+  table, th, td {
+    border:1px solid black;
+  }
+  
+.form-group {
+    margin-bottom: 30px;
+    position: relative;
+    padding: 1px;
+    top: 50px;
+    right: 50px;
+
+  }
+  
+  label {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    margin-right: 20px;
+    color: #0a0000;
+    
+  }
+  
+  input,
+  textarea {
+    display: inline-block;
+    width: 300px;
+    padding: 7px;
+    font-size: 10px;
+    border: 2px solid #0a0000;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f50909;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+  }
+  
+  button:hover {
+    background-color: #16e5ec;
+  }
+
+ 
+  
+title {
+
+    background-color: blue;
+    background: #860000;
+}
+
+/*this is for the gallery page */
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding-top: 150px;
+    
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.5s;
+    border: 2px solid black;
+}
+
+.image:hover {
+
+    transform: scale(1.2);
+}
+
+
+/* for screen smaller than 960px*/
+@media screen and (max-width:960px){
+
+    .html body {height: 100%;}
+
+.container{
+
+   
+    
+  
+
+    overflow-x: hidden;
+
+    grid-template-columns:1fr;}
+
+    footer{
+
+        position: absolute;
+        bottom: 0%;
+        text-align: center;
+        height: 100%;
+        
+    }
+
+    img{
+        max-width:100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .body {
+        width: auto;
+        padding: 0px;
+        overflow-x: hidden;
+        background-color: #00aeff;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    .imageh{
+       position:static;
+       float:left;
+       margin-bottom:10px;
+    }
+    
+     }
+   
+
+
